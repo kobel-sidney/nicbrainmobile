@@ -5,4 +5,35 @@
     <string name="navigation_drawer_close">Close navigation drawer</string>
 
     <string name="action_settings">Configurações</string>
+    <string name="title_activity_login">Nicbrain</string>
+    <string name="title_activity_login_modelo">Sign in</string>
+
+    <string name="title_no"> </string>
+
+    <!-- Telas -->
+    <string name="title_activity_event">Evento</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Senha</string>
+    <string name="action_sign_in">Acessar</string>
+    <string name="action_sign_in_short">Acessar</string>
+    <string name="error_invalid_email">Email inválido</string>
+    <string name="error_invalid_password">Senha inválida</string>
+    <string name="error_incorrect_password">Senha inválida</string>
+    <string name="error_field_required">Campo obrigatório</string>
+    <string name="permission_rationale">"Contacts permissions are needed for providing email
+        completions."
+    </string>
+    <string name="user_not_found">Usuário não encontrado</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- Checklist -->
+    <string name="alert_cancel_checklist">Deseja Cancelar o checklist?</string>
+    <string name="msg_observation_cancel">Digite uma observação de cancelamento</string>
+    <string name="no_checklist_found">Nenhum checklis encontrado</string>
+
 </resources>

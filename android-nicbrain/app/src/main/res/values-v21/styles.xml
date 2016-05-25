@@ -5,5 +5,12 @@
         <item name="windowNoTitle">true</item>
         <item name="android:windowDrawsSystemBarBackgrounds">true</item>
         <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:colorButtonNormal">@color/redDefault</item>
     </style>
+
+    <style name="AppTheme.Button" parent="Widget.AppCompat.Button.Colored">
+        <item name="colorButtonNormal">@color/redDefault</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
 </resources>

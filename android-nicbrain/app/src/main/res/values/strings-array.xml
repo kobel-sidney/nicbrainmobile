@@ -1,0 +1,63 @@
+<resources>
+
+    <string-array name="LST_SPINNER_ORDENACAO_TELEFONEUTIL">
+        <item>Número</item>
+        <item>Nome</item>
+    </string-array>
+
+    <string-array name="LST_SPINNER_ORDENACAO_ATIVIDADE_OCORRENCIA">
+        <item>Atividade</item>
+        <item>Data Inicial</item>
+        <item>Data Final</item>
+    </string-array>
+
+    <string-array name="LST_SPINNER_ORDENACAO_PENDENCIAS_OCORRENCIAS">
+        <!--<item>Local</item>-->
+        <!--<item>Evento</item>-->
+        <item>Classificação</item>
+        <!--<item>Nível Gravidade</item>-->
+        <!--<item>Descrição</item>-->
+        <item>Data Início</item>
+        <item>Situação</item>
+	</string-array>
+	
+    <string-array name="LST_SPINNER_ORDENACAO_CHECKLIST">
+        <item></item>
+        <item>Item</item>
+        <item>Responsável</item>
+        <item>Status</item>
+<!--         <item>Data/Hora</item> -->
+    </string-array>
+    
+    <string-array name="lista_spinner_gravidade">
+        <item></item>
+        <item>Máxima</item>
+        <item>Alta</item>
+        <item>Média</item>
+        <item>Baixa</item>
+    </string-array>
+    
+    
+    <string-array name="lista_spinner_setor">
+        <item></item>
+        <item>Norte</item>
+        <item>Sul</item>
+        <item>Leste</item>
+        <item>Oeste</item>
+    </string-array>
+    
+    <string-array name="lista_spinner_sala">
+        <item></item>
+        <item>Sala 1</item>
+        <item>Sala 2</item>
+        <item>sala 3</item>
+    </string-array>
+    
+    <string-array name="lista_spinner_tipo">
+        <item></item>
+        <item>Anomialia</item>
+        <item>Incidência</item>
+        <item>Emergência</item>
+    </string-array>
+    
+</resources>

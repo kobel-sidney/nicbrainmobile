@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:baselineAligned="false" >
+
+        <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.4"
+        android:background="#e5e1e1" >
+
+            <ImageView
+                android:id="@+id/imageIconStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical|center_horizontal"
+                android:src="@drawable/icone_branco" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="3.0"
+        android:background="#e5e1e1"
+        android:orientation="vertical" >
+            <TextView
+                android:id="@+id/textNomeChecklist"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                 />
+            <TextView
+                android:id="@+id/textNomeResponsavel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp" />
+            <TextView
+                android:id="@+id/textDataInicioPrevisto"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp" />
+            <TextView
+                android:id="@+id/textStatus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="10sp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:paddingTop="6dp"
+        android:background="#e5e1e1" >
+
+            <ImageButton
+                android:id="@+id/btnCancelar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@android:color/transparent"
+                android:src="@drawable/icone_cancelar" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>
